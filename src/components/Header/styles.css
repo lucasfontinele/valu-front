@@ -1,0 +1,32 @@
+div .container {
+    height: 80px;
+    background: #8a29b6;
+    width: 100%;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.user-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-content img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.user-content p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
